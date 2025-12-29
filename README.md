@@ -1,7 +1,9 @@
 # PCB Defect Detector
 
 Detecting defects in printed circuit boards using computer vision.
-Data from https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
+
+Dataset source:
+https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
 
 ## Progress
 - [x] Dec 29: Dataset loaded, visualized 6 defect types
@@ -15,13 +17,35 @@ Data from https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
 - Spurious copper
 - Mouse bite
 
-## Setup
-Using conda:
-conda create -n pcb_detector python=3.10
+### Option 1: Using Conda (Recommended)
+
+```bash
+conda create -n pcb_detector python=3.10 -y
 conda activate pcb_detector
 pip install -r requirements.txt
+```
 
-Using venv:
+### Option 2: Using Python venv
+
+```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
 pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+### 1. Categorize the dataset
+
+Run the script below to organize PCB images into folders based on defect type:
+
+```bash
+python categorize_data.py
+```
+
+After running the script, the dataset will be structured for training and evaluation.
