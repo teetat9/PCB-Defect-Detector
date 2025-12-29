@@ -6,7 +6,7 @@ Dataset source:
 https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
 
 ## Progress
-- [x] Dec 29: Dataset loaded, visualized 6 defect types
+- [x] Dec 29: Dataset loaded, visualized 6 defect types, categorize 6 defect types
 - [ ] Next: Build simple classification model
 
 ## Defect Types
