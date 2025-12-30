@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
 
 ## Progress
 - [x] Dec 29: Dataset loaded, visualized 6 defect types, categorize 6 defect types
-- [ ] Next: Build simple classification model
+- [x] Dec 30: Build a local data loader, Split data into train and test sets, Visualize batch of images
 
 ## Defect Types
 - Missing hole
