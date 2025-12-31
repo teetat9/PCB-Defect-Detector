@@ -63,3 +63,5 @@ After running the script, the dataset will be structured for training and evalua
 ```bash
 python simple_cnn.py
 ```
+## Model Result
+![Training History](training_history.png)

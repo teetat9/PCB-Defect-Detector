@@ -1,6 +1,5 @@
 # Dataset files
 *.jpg
-*.png
 organized_dataset/
 
 # Python
