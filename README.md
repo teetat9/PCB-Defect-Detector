@@ -15,7 +15,7 @@ https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
 - [x] Dec 29: Dataset loaded, visualized 6 defect types, categorize 6 defect types
 - [x] Dec 30: Build a local data loader, Split data into train and test sets, Visualize batch of images
 - [x] Dec 31: Create a simple CNN training and evaluate the model. Analyze problems -> think of solutions
-- [] Next: Come back with experience, analyze and finish off this project.
+- [ ] Next: Come back with experience, analyze and finish off this project.
 
 ## Defect Types
 - Missing hole
