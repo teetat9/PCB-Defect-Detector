@@ -1,6 +1,6 @@
 # PCB Defect Detector (Failed at beginner level, will come back with experience.)
 
-Detecting defects in printed circuit boards using computer vision.
+Detecting defects in printed circuit boards using Convolutional Neural Network with softmax activation function.
 
 Dataset source:
 https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset
